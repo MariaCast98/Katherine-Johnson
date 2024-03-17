@@ -1,1 +1,6 @@
+number of A, C, T, G content in prrA gene I have taken of Mycobacterium
 
+Number of C: 25141
+Number of T: 14423
+Number of A: 14252
+Number of G: 26185
