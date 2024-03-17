@@ -73,7 +73,7 @@ echo "scale=2; ($gc / $total) * 100" | bc | sed 's/$/%/'
 $ nano stephen.fa
 
 
-## 18. “echo” the following into the file using >>
+## 18. “echo” the following into the file using >>: the number of A, G, T and C in the file you created above.
 $ echo "Total count of A: $(grep -v ">" AF305637.1_luxS.fasta | grep -o "A" | wc -l)" >> stephen.fa
 $ echo "Total count of G: $(grep -v ">" AF305637.1_luxS.fasta | grep -o "G" | wc -l)" >> stephen.fa
 $ echo "Total count of T: $(grep -v ">" AF305637.1_luxS.fasta | grep -o "T" | wc -l)" >> stephen.fa
@@ -83,7 +83,7 @@ $ echo "Total count of C: $(grep -v ">" AF305637.1_luxS.fasta | grep -o "C" | wc
 "<link>"
 
 
-## 20. Save all the codes you have used in this project in a file named yourname.sh Upload all the codes you have used to your team’s github repo in a folder called /scrip
+## 20. Save all the codes you have used in this project in a file named yourname.sh Upload all the codes you have used to your team’s github repo in a folder called /script
 "<link>"
 
 
