@@ -1,0 +1,4 @@
+Number of C = 496
+Number of G = 443
+Number of T = 523
+Number of A = 1161
