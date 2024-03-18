@@ -80,7 +80,7 @@ $ echo "Total count of T: $(grep -v ">" AF305637.1_luxS.fasta | grep -o "T" | wc
 $ echo "Total count of C: $(grep -v ">" AF305637.1_luxS.fasta | grep -o "C" | wc -l)" >> stephen.fa
 
 ## 19. Upload the file to your team’s github repo in a folder called /output
-"<link>"
+https://github.com/MariaCast98/Katherine-Johnson/tree/main/output
 
 
 ## 20. Save all the codes you have used in this project in a file named yourname.sh Upload all the codes you have used to your team’s github repo in a folder called /script
