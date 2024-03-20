@@ -1,3 +1,4 @@
+##TASK 1
 mkdir aditi
 
 cd ..
@@ -66,3 +67,51 @@ cat aditi_nucleotide_file.txt
 
 ls
 
+##TASK 2
+#installing misconduct on bash
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+#setting permission through chnod +x, allowing it to run as a prpgram
+chmod +x Miniconda3-latest-Linux-x86_64.sh
+
+#setting directory
+./Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3
+
+#exporting its path into bashrc file
+echo 'export PATH="$HOME/miniconda3/bin:$PATH"' >> ~/.bashrc
+
+source ~/.bashrc
+
+conda --version
+
+#activating bin
+source ~/miniconda3/bin/activate
+
+#activating conda base
+conda activate
+
+#creating new env using conda
+conda create --name funtools
+
+#installing figlet using channels in conda
+conda install tsnyder::figlet
+
+#write your name using figlet {yourname} command
+figlet aditi 
+
+#installing packages using bioconda channel
+conda install -c bioconda bwa
+
+conda install -c bioconda blast
+
+conda install -c bioconda samtools
+
+conda install -c bioconda bedrooms
+
+conda install bioconda::spades 
+
+conda install -c bioconda bcftools
+
+conda install -c bioconda fastp 
+
+conda install -c bioconda multiqc
