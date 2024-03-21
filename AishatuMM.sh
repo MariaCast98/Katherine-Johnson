@@ -1,4 +1,4 @@
-4  mkdir AISHATUMM
+    mkdir AISHATUMM
    55  rm -r biocomputing
    56  mkdir biocomputing
    57  mkdir biocomputing && cd biocomputing
