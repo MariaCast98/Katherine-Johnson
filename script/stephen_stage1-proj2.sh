@@ -27,16 +27,16 @@ $ conda create -n samtools
 $ conda activate samtools
 $ conda config --add channels bioconda
 $ conda config --add channels conda-forge
-$ conda install samtools
+$ conda install -c bioconda samtools
 
 ## 9. Install bedtools through the bioconda channel
-$ conda install bedtools
+$ conda install -c bioconda bedtools
 
 ## 10. Install spades.py through the bioconda channel
-$ conda install spades
+$ conda install -c bioconda spades
 
 ## 11. Install bcftools through the bioconda channel
-$ conda install bcftools
+$ conda install -c bioconda bcftools
 
 ## 12. Install fastp through the bioconda channel
 $ conda install -c bioconda fastp
