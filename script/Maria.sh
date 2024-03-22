@@ -1,3 +1,4 @@
+# Project 1
 #to create a folder with my name
 $mkdir Maria
 
@@ -63,3 +64,60 @@ $history
 
 ## to list the files in the two folders and share a screenshot of your terminal below 
 $ ls ~/output/ ~/script/
+
+
+# Project 2
+
+#Activate your base conda environment
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh 
+$sh Miniconda3-latest-Linux-x86_64.sh 
+$ which conda
+$ ls miniconda3/
+$ nano ~/.bashrc
+#edit the file at the end and write: export PATH=”/home/maria_castaneda5/miniconda3/bin:$PATH”
+#save the changes
+$ source ~/.bashrc
+$ which conda
+$ conda init
+$ conda activate
+
+
+#Create a conda environment names funtools
+$ conda create -n funtools
+
+#Activate the funtools environment
+$ conda activate funtools
+
+#Install Figlet using conda
+$ conda install tsnyder::figlet
+
+#Run the following command figlet {your name}. Put a screenshot of what you see below 😀
+$figlet Maria
+
+#Install bwa through the bioconda channel
+$ conda install bioconda::bwa
+
+#Install blast through the bioconda channel
+$ conda install bioconda::blast
+
+#Install samtools through the bioconda channel
+$ conda install bioconda::samtools
+
+#Install bedtools through the bioconda channel
+$ conda install bioconda::bedtools
+
+#Install spades.py through the bioconda channel
+$ conda install bioconda::spades
+
+#Install bcftools through the bioconda channel
+$ conda install bioconda::bcftools
+
+#Install fastp through the bioconda channel
+$ conda install bioconda::fastp
+
+#Install multiqc through the bioconda channel
+$ conda config --add channels defaults
+$ conda config --add channels bioconda
+$ conda config --add channels conda-forge
+$ conda config --set channel_priority strict
+$ conda install multiqc
