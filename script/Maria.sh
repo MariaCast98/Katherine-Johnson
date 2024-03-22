@@ -63,57 +63,57 @@ $clear
 $history
 
 ## to list the files in the two folders and share a screenshot of your terminal below 
-$ ls ~/output/ ~/script/
+$ls ~/output/ ~/script/
 
 
 # Project 2
 
 #Activate your base conda environment
-$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh 
+$wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh 
 $sh Miniconda3-latest-Linux-x86_64.sh 
-$ which conda
-$ ls miniconda3/
-$ nano ~/.bashrc
+$which conda
+$ls miniconda3/
+$nano ~/.bashrc
 #edit the file at the end and write: export PATH=”/home/maria_castaneda5/miniconda3/bin:$PATH”
 #save the changes
-$ source ~/.bashrc
-$ which conda
-$ conda init
-$ conda activate
+$source ~/.bashrc
+$which conda
+$conda init
+$conda activate
 
 
 #Create a conda environment names funtools
-$ conda create -n funtools
+$conda create -n funtools
 
 #Activate the funtools environment
-$ conda activate funtools
+$conda activate funtools
 
 #Install Figlet using conda
-$ conda install tsnyder::figlet
+$conda install tsnyder::figlet
 
 #Run the following command figlet {your name}. Put a screenshot of what you see below 😀
 $figlet Maria
 
 #Install bwa through the bioconda channel
-$ conda install bioconda::bwa
+$conda install bioconda::bwa
 
 #Install blast through the bioconda channel
-$ conda install bioconda::blast
+$conda install bioconda::blast
 
 #Install samtools through the bioconda channel
-$ conda install bioconda::samtools
+$conda install bioconda::samtools
 
 #Install bedtools through the bioconda channel
-$ conda install bioconda::bedtools
+$conda install bioconda::bedtools
 
 #Install spades.py through the bioconda channel
-$ conda install bioconda::spades
+$conda install bioconda::spades
 
 #Install bcftools through the bioconda channel
-$ conda install bioconda::bcftools
+$conda install bioconda::bcftools
 
 #Install fastp through the bioconda channel
-$ conda install bioconda::fastp
+$conda install bioconda::fastp
 
 #Install multiqc through the bioconda channel
 $ conda config --add channels defaults
