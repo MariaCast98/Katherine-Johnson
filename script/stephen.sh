@@ -99,5 +99,3 @@ $ cd ~/stephen.arcan
 $ ls
 $ cd ~/biocomputing
 $ ls
-
-## STAGE 2 - PROJECT 2: Installing Bioinformatics Softwares on the terminal
