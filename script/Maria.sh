@@ -62,8 +62,4 @@ $clear
 $history
 
 ## to list the files in the two folders and share a screenshot of your terminal below 
-$ cd 
-$ cd ~/Maria
-$ ls
-$ cd ~/biocomputing
-$ ls
+$ ls ~/output/ ~/script/
