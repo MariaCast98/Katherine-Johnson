@@ -1,3 +1,5 @@
+## STAGE 1 - PROJECT 1: BAsh Basic
+
 ## 1. Login to your coding workspace
 ## 2. Create a folder titled your name
 $ mkdir stephen.arcan
@@ -97,3 +99,5 @@ $ cd ~/stephen.arcan
 $ ls
 $ cd ~/biocomputing
 $ ls
+
+## STAGE 2 - PROJECT 2: Installing Bioinformatics Softwares on the terminal
