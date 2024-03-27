@@ -68,7 +68,7 @@ cat aditi_nucleotide_file.txt
 ls
 
 ##TASK 2
-#installing misconduct on bash
+#installing miniconda on bash
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 #setting permission through chnod +x, allowing it to run as a prpgram
