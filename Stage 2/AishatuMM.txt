@@ -1,5 +1,5 @@
-FastQC (Quality Control)
-FastP (Trimming) 
+FastQC (for Quality Control)
+FastP (for Trimming) 
+samtools (for indexing)
 bwa (Genome mapping)
-samtools
-bcftools
+bcftools (for variant calling)
