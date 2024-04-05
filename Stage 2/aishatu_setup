@@ -1,5 +1,5 @@
 sudo apt install fastqc 
 sudo apt install fastp
-sudo apt install bwa
-sudo apt install bcftools
 sudo apt install samtools
+sudo apt install bwa
+sudo apt install bcftool
