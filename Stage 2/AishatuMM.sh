@@ -21,16 +21,12 @@ mkdir stage2\
   141  --help
   142  samtools faidx stage2 reference.fasta
   143  pwd
-  144  ls
   145  samtools faidx reference.fasta
-  146  bwa index reference.fasta
   147  sudo apt install bwa
   150  which reference.fasta
   151  bwa index reference.fasta
   152  ls
   153  cd stage2/
-  154  ls 
-  155  cd
   158  mv --help
   159  mv -t reference.fasta
   161  cd stage2
