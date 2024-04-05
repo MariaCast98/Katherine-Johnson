@@ -1,0 +1,6 @@
+Wget (Downloading dataset)
+FastQC (Quality checking of the reads)
+FastP (trimming and quality checking of the trimmed reads)
+bwa (genome mapping) 
+Samtools (post mapping processing)
+Freebayes (Variant calling)
