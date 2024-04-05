@@ -5,15 +5,8 @@ mkdir stage2\
   111  ls
   115  wget https://zenodo.org/records/10426436/files/ERR8774458_1.fastq.gz
   116  wget https://zenodo.org/records/10426436/files/ERR8774458_2.fastq.gz
-  117  ls
-  118  fastqc -o analysis ERR8774458_1.fastq.gz
-  119  fastqc -o analysis_dta ERR8774458_1.fastq.gz
-  120  fastqc -o analysis_data ERR8774458_1.fastq.gz
-  121  wget https://zenodo.org/records/10886725/files/Reference.fasta
-  122  ls
   123  wget https://zenodo.org/records/10886725/files/Reference.fasta?download=1
   127  sudo apt install fastqc
-  128  fastqc -o analysis_data ERR8774458_1.fastq.gz
   129  fastqc -o stage2 ERR8774458_1.fastq.gz
   130  fastqc -o stage2  ERR8774458_2.fastq.gz
   131  sudo apt install fastp
@@ -22,7 +15,6 @@ mkdir stage2\
   134  fastqc -o stage2 trimmed_reads/trimmed_reads.fastq.gz
   135  sudo apt install samtools
   136  samtools faidx reference.fasta
-  137  samtools Reference.fasta?download=1
   138  samtools reference.fasta
   139  samtools faidx reference.fasta
   140  sudo install faidx
@@ -33,8 +25,6 @@ mkdir stage2\
   145  samtools faidx reference.fasta
   146  bwa index reference.fasta
   147  sudo apt install bwa
-  148  bwa reference.fasta
-  149  bwa Reference.fasta
   150  which reference.fasta
   151  bwa index reference.fasta
   152  ls
@@ -43,7 +33,6 @@ mkdir stage2\
   155  cd
   158  mv --help
   159  mv -t reference.fasta
-  160  mv -t Reference.fasta
   161  cd stage2
   162  wget https://zenodo.org/records/10886725/files/Reference.fasta
   163  bwa index Reference.fasta
