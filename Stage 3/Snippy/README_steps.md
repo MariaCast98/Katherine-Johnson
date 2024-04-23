@@ -4,7 +4,9 @@ $snippy --outdir ERR9516360_snippy_output --reference GCF_008727535.1_ASM872753v
 
 # Generate the report (not neccesary)
 $ cd ERR9516360_snippy_output
+
 $ ls
+
 $ snippy-vcf_report --html --cpus 16 --auto > snps.report.html
 
 # Generate core SNP alignments:
