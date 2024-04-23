@@ -13,5 +13,6 @@ $ snippy-vcf_report --html --cpus 16 --auto > snps.report.html
 # Generate core SNP alignments:
 $ snippy-core ERR9516360_snippy_output --ref ERR9516360_snippy_output/reference/ref.fa
 
-# Cleaning the alignment, remove all the "weird" characters and replace them with N using the included snippy-clean_full_aln. This is useful when you need to pass it to a tree-building or recombination-removal tool:
+# Cleaning the alignment:
+## Remove all the "weird" characters and replace them with N using the included snippy-clean_full_aln. This is useful when you need to pass it to a tree-building or recombination-removal tool:
 $ snippy-clean_full_aln core.full.aln > yourSRRcode.clean.full.aln
