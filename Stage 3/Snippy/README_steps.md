@@ -1,5 +1,6 @@
 Please update your results of snippy :)
-#Script:
+
+# Script:
 $snippy --outdir ERR9516360_snippy_output --reference GCF_008727535.1_ASM872753v1_genomic.fna --peil ERR9516360.fastq.gz --cpus 16
 
 # Generate the report (not neccesary)
