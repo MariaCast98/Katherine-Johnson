@@ -1,0 +1,2 @@
+combined_alignment.fasta filter=lfs diff=lfs merge=lfs -text
+alignment_28.fasta filter=lfs diff=lfs merge=lfs -text
